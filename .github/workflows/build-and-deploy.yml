@@ -1,6 +1,7 @@
 name: Build & deploy
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -29,7 +30,7 @@ jobs:
         run: npm run build
 
       - name: Run tests
-        run: npm run test
+        run: npm test -- --watchAll=false
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v4
@@ -55,4 +56,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
-          
