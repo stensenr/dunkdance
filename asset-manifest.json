@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/dunkdance/static/css/main.db010342.css",
+    "main.css": "/dunkdance/static/css/main.78aa861f.css",
     "main.js": "/dunkdance/static/js/main.ce716520.js",
     "static/js/453.efae3c78.chunk.js": "/dunkdance/static/js/453.efae3c78.chunk.js",
     "static/media/logo.svg": "/dunkdance/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/dunkdance/index.html",
-    "main.db010342.css.map": "/dunkdance/static/css/main.db010342.css.map",
+    "main.78aa861f.css.map": "/dunkdance/static/css/main.78aa861f.css.map",
     "main.ce716520.js.map": "/dunkdance/static/js/main.ce716520.js.map",
     "453.efae3c78.chunk.js.map": "/dunkdance/static/js/453.efae3c78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db010342.css",
+    "static/css/main.78aa861f.css",
     "static/js/main.ce716520.js"
   ]
 }
